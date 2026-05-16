@@ -69,6 +69,26 @@ body.home main {
     box-shadow: 0 12px 36px rgba(0, 0, 0, 0.22);
 }
 
+.home-footer {
+    margin-top: 4rem;
+    font-size: 0.9rem;
+    color: var(--muted);
+}
+
+.home-footer a {
+    color: var(--muted);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+    transition: color 0.15s ease, border-color 0.15s ease;
+}
+
+.home-footer a:hover {
+    color: var(--ink);
+    border-bottom-color: var(--ink);
+}
+
+.dot { margin: 0 0.5rem; opacity: 0.5; }
+
 /* --- Inner pages (privacy, support) --- */
 
 main.page {
